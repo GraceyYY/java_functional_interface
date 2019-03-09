@@ -1,4 +1,4 @@
 @FunctionalInterface
-interface MathOperation {
-    Integer operate(Integer a, Integer b);
+interface MathOperation<T> {
+    T operate(Integer a, Integer b);
 }
