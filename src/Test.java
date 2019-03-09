@@ -5,7 +5,7 @@ public class Test {
         MathOperation<Integer> multiplication = (a, b) -> a * b;
         MathOperation<Double> division = (a, b) -> a / (double)b;
 
-        Integer a = 4;
+        Integer a = 11;
         Integer b = 2;
         System.out.println("addition: " + addition.operate(a,b));
         System.out.println("subtraction: " + subtraction.operate(a,b));
